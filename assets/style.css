@@ -13,7 +13,11 @@ body{
 }
 
 section{
-    padding: 20px;
+    padding: 10px;
+}
+
+p{
+    font-size: 1.55vw;;
 }
 
 /* Header Style */
@@ -66,8 +70,8 @@ header nav ul li a{
 /* About Me Section Style */
 
 .about-me{
-    margin: 50px 10px;
-    padding-bottom: 50px;
+    margin: 30px 10px;
+    padding-bottom: 30px;
     display: flex;
 }
 
@@ -75,7 +79,8 @@ header nav ul li a{
     padding-right: 20px;
     border-right: 1px solid white;
     width: 10%;
-    font-size: 18px;
+    min-width: 80px;
+    font-size: 1.65vw;
 }
 
 .about-me-content{
@@ -103,8 +108,8 @@ header nav ul li a{
 
 /*Projects Styling*/
 .projects{
-    margin: 50px 10px;
-    padding-bottom: 50px;
+    margin: 30px 10px;
+    padding-bottom: 30px;
     display: flex;
 }
 
@@ -112,25 +117,38 @@ header nav ul li a{
     padding-right: 42px;
     border-right: 1px solid white;
     width: 10%;
-    font-size: 18px;
+    min-width: 80px;
+    font-size: 1.65vw;
+    min-width: 80px;
 }
 
-.projects-content{
+.projects-main-content{
     margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
+    width: 90%;
+}
+.projects-secondary-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
 }
 
-.projects img{
+.projects-main-content img{
     padding: 10px;
-    flex: 1 20%;
     max-width: 100%;
+}
+
+.projects-secondary-content img{
+    padding: 10px;
+    width: 50%;
+    max-width: 350px;
 }
 
 /* Contact Me Section Styling */
 .contact-me{
-    margin: 50px 10px;
-    padding-bottom: 50px;
+    margin: 30px 10px;
+    padding-bottom: 30px;
     display: flex;
     width: 100%;
     align-items: center;
@@ -140,7 +158,8 @@ header nav ul li a{
     padding-right: 38px;
     border-right: 1px solid white;
     width: 10%;
-    font-size: 18px;
+    min-width: 80px;
+    font-size: 1.65vw;
 }
 
 .contact-me-info a{
@@ -165,5 +184,19 @@ header nav ul li a{
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+}
+
+/* Media Query Re-Sizing */
+
+@media screen and (maxwidth: 768px){
+    
+}
+
+@media screen  and (max-width:575px){
+
+}
+
+@media screen  and (max-width:320px) {
+
 }
 
