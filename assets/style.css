@@ -17,7 +17,7 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: teal;
+    background-color: black;
 }
 header a{
     text-decoration: none;
@@ -41,3 +41,20 @@ header nav ul li a{
     font-weight: lighter;
     font-size: 1.55vw;
 }
+
+/* Hero Style */
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    color: black;
+    background-image: url(../assets/images/Portfolio-Header.png);
+    height: 200px;
+}
+
+.hero-text{
+    display: flex;
+    align-items: flex-end;
+
+}
+
