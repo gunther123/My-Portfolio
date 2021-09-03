@@ -112,6 +112,11 @@ header nav ul li a{
     padding-bottom: 30px;
     display: flex;
 }
+.projects-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .projects h3{
     padding-right: 42px;
@@ -126,12 +131,12 @@ header nav ul li a{
     margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
 }
 .projects-secondary-content{
     display: flex;
     flex-wrap: wrap;
-    width: 45%;
+    width: 90%;
 }
 
 .projects-main-content img{
