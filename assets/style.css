@@ -11,6 +11,10 @@ body{
     font-family: Helvetica, Arial, sans-serif;
 }
 
+section{
+    padding: 20px;
+}
+
 /* Header Style */
 header{
     padding: 20px 35px;
@@ -56,5 +60,40 @@ header nav ul li a{
     display: flex;
     align-items: flex-end;
 
+}
+
+/* About Me Section Style */
+
+.about-me{
+    margin: 50px 10px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-me h3{
+    padding-right: 20px;
+    border-right: 1px solid white;
+}
+
+.about-me-content{
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 80%;
+}
+
+.about-me-content img{
+    width: 20%;
+    padding: 0px 10px 10px 0px;
+}
+
+.about-me-content-p1{
+    width: 80%;
+}
+
+.about-me-content-p2{
+    width: 100%;
+    padding-top: 20px;
 }
 
