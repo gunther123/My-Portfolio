@@ -88,6 +88,8 @@ header nav ul li a{
 .about-me-content img{
     width: 20%;
     padding: 0px 10px 10px 0px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .about-me-content-p1{
@@ -107,7 +109,7 @@ header nav ul li a{
 }
 
 .projects h3{
-    padding-right: 30px;
+    padding-right: 42px;
     border-right: 1px solid white;
     width: 10%;
     font-size: 18px;
@@ -117,11 +119,51 @@ header nav ul li a{
     margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 
 .projects img{
     padding: 10px;
     flex: 1 20%;
+    max-width: 100%;
 }
+
+/* Contact Me Section Styling */
+.contact-me{
+    margin: 50px 10px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.contact-me h3{
+    padding-right: 38px;
+    border-right: 1px solid white;
+    width: 10%;
+    font-size: 18px;
+}
+
+.contact-me-info a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact-me div{
+    width: 90%;
+}
+.contact-me-info ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 7px 0;
+    width: 80%;
+}
+
+.contact-me-info ul li a{
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
