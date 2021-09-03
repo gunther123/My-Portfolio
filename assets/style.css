@@ -18,7 +18,14 @@ section{
 }
 
 p{
-    font-size: 1.55vw;;
+    font-size: 1.55vw;
+}
+
+.section-heading{
+    border-right: 1px solid white;
+    width: 10%;
+    min-width: 50px;
+    font-size: 1.65vw;
 }
 
 /* Header Style */
@@ -78,10 +85,6 @@ header nav ul li a{
 
 .about-me h3{
     padding-right: 20px;
-    border-right: 1px solid white;
-    width: 10%;
-    min-width: 80px;
-    font-size: 1.65vw;
 }
 
 .about-me-content{
@@ -121,11 +124,6 @@ header nav ul li a{
 
 .projects h3{
     padding-right: 42px;
-    border-right: 1px solid white;
-    width: 10%;
-    min-width: 80px;
-    font-size: 1.65vw;
-    min-width: 80px;
 }
 
 .projects-main-content{
@@ -141,14 +139,14 @@ header nav ul li a{
 }
 
 .projects-main-content img{
-    padding: 10px;
-    max-width: 100%;
+    padding: 0px 10px 10px 10px;
+    max-width: 97%;
 }
 
 .projects-secondary-content img{
     padding: 10px;
     width: 50%;
-    max-width: 350px;
+    max-width: 360px;
 }
 
 /* Contact Me Section Styling */
@@ -161,13 +159,11 @@ header nav ul li a{
 }
 
 .contact-me h3{
-    padding-right: 38px;
-    border-right: 1px solid white;
-    width: 10%;
-    min-width: 80px;
-    font-size: 1.65vw;
+    padding-right: 30px;
 }
-
+.contact-me-info{
+    display: flex;
+}
 .contact-me-info a{
     text-decoration: none;
     color: white;
@@ -203,6 +199,38 @@ header nav ul li a{
 }
 
 @media screen  and (max-width:320px) {
+    header{
+        justify-content: center;
+        }
+
+        header nav ul li a {
+            font-size: 12px;
+        }
+        
+        .about-me-content img {
+            width: 100%;
+            padding: 0px 10px 10px 0px;
+            max-width: 100%;
+            max-height: 100%;
+        }
+        
+        .about-me-content-p1 {
+            width: 100%;
+        }
+        .about-me-content-p2 {
+            width: 100%;
+        }
+        
+        p {
+            font-size: 9px;
+        }
+        
+        .section-heading {
+            border-right: 1px solid white;
+            width: 12%;
+            min-width: 50px;
+            font-size: 10px;
+        }
 
 }
 
