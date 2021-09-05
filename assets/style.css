@@ -18,14 +18,14 @@ section{
 }
 
 p{
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .section-heading{
     border-right: 1px solid white;
     width: 10%;
     min-width: 50px;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 /* Header Style */
@@ -97,17 +97,17 @@ header nav ul li a{
 .about-me-content img{
     width: 20%;
     padding: 0px 10px 10px 0px;
-    max-width: 100%;
-    max-height: 100%;
+    min-width: 200px;
+    min-height: 150px;
 }
 
 .about-me-content-p1{
-    width: 80%;
+    width: 70%;
 }
 
 .about-me-content-p2{
+    padding-top: 10px;
     width: 100%;
-    padding-top: 20px;
 }
 
 /*Projects Styling*/
@@ -188,12 +188,12 @@ header nav ul li a{
 .contact-me-info ul li a{
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 24px;
+    font-size: 17px;
 }
 
 /* Media Query Re-Sizing */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 873px){
 
 header nav ul li a{
     font-size: 16px;
@@ -207,8 +207,27 @@ header nav ul li a{
 width: 10.4%;
 }
 
+.about-me-content{
+    justify-content: center;
+}
+
+.about-me-content img{
+    width: 100%;
+    max-width: 190px;
+}
+
+.about-me-content-p1 {
+    width: 100%;
+}
+.about-me-content-p2 {
+    width: 100%;
+}
 .projects h3{
     width: 11%;
+}
+
+.contact-me-info ul li a{
+    font-size: 14px;
 }
 
 }
@@ -242,7 +261,10 @@ p{
         
 .projects h3{
     width: 12%;
-}    
+}
+.contact-me-info ul li a{
+    font-size: 12px;
+}
 
 }
 
@@ -251,19 +273,14 @@ p{
 .about-me-content{
     justify-content: center;
 }
-.about-me-content img {
-    width: 100%;
-    max-width: 190px;
-}
-.about-me-content-p1{
-    width: 100%;
-}
+
 .section-heading{
     font-size: 9px;
 }
 p{
     font-size: 8px;
 }
+
     
 }
 
@@ -271,17 +288,6 @@ p{
 
 header{
     justify-content: center;
-}
-
-header nav ul li a {
-    font-size: 12px;
-}
-        
-.about-me-content-p1 {
-    width: 100%;
-}
-.about-me-content-p2 {
-    width: 100%;
 }
         
 p {
