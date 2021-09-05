@@ -263,7 +263,7 @@ p{
     width: 12%;
 }
 .contact-me-info ul li a{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 }
@@ -280,20 +280,20 @@ p{
 p{
     font-size: 8px;
 }
+.contact-me-info ul li a{
+    font-size: 8px;
+}
 
     
 }
 
-@media screen  and (max-width:320px) {
+@media screen  and (max-width:345px) {
 
 header{
     justify-content: center;
 }
-        
-p {
-     font-size: 9px;
-}
-        
+
+
 .section-heading {
     border-right: 1px solid white;
     width: 12%;
@@ -304,5 +304,11 @@ p {
 .projects-secondary-content{
     padding-left: 10px;
 }
+
+.contact-me-info ul{
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
 
 }
