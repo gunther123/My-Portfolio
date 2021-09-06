@@ -91,7 +91,7 @@ header nav ul li a{
     margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
 }
 
 .about-me-content img{
@@ -120,6 +120,7 @@ header nav ul li a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90%;
 }
 
 .projects h3{
@@ -135,18 +136,20 @@ header nav ul li a{
 .projects-secondary-content{
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
 }
 
 .projects-main-content img{
     padding: 0px 10px 10px 10px;
-    max-width: 97%;
+    max-width: 750px;
 }
 
 .projects-secondary-content img{
-    padding: 10px;
+    max-width: 350px;
+}
+
+.projects-secondary-content a {
     width: 50%;
-    max-width: 360px;
+    padding: 10px;
 }
 
 /* Contact Me Section Styling */
@@ -154,7 +157,6 @@ header nav ul li a{
     margin: 30px 10px;
     padding-bottom: 30px;
     display: flex;
-    width: 100%;
     align-items: center;
 }
 
