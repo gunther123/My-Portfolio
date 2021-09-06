@@ -301,10 +301,6 @@ header{
     font-size: 10px;
 }
 
-.projects-secondary-content{
-    padding-left: 10px;
-}
-
 .contact-me-info ul{
     flex-wrap: nowrap;
     justify-content: flex-start;
