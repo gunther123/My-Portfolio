@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth
+  }
+
 body{
     color: white;
     background-color: #282828;
@@ -57,6 +61,12 @@ header nav ul li a{
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 24px;
+}
+
+header nav ul li a:hover{
+    background:#27445C;
+    border-radius: 15px;
+    text-shadow: none;
 }
 
 /* Hero Style */
@@ -200,6 +210,12 @@ header nav ul li a{
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 17px;
+}
+
+.contact-me-info ul li a:hover{
+    background:#27445C;
+    border-radius: 15px;
+    text-shadow: none;
 }
 
 /* Media Query Re-Sizing */
