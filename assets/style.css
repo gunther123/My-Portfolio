@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-html {
+html{
     scroll-behavior: smooth
   }
 
@@ -154,12 +154,17 @@ header nav ul li a:hover{
 }
 
 .projects-main-content a {
+    background-image: url(../assets/images/hero-bg_720x200.jpg);
+    display: flex;
+    height: 200px;
     width: 100%;
 }
+
 
 .projects-secondary-content a {
     width: 50%;
 }
+
 
 .secondary-image-container-1{
     padding-right: 10px;
@@ -168,6 +173,7 @@ header nav ul li a:hover{
 .secondary-image-container-2{
     padding-left: 10px;
 }
+
 
 
 
