@@ -132,7 +132,6 @@ header nav ul li a:hover{
 }
 
 .projects-main-content{
-    margin-left: 30px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -140,7 +139,7 @@ header nav ul li a:hover{
 .projects-secondary-content{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 40px;
+    padding-left: 80px;
     width: 100%;
 }
 
@@ -156,7 +155,7 @@ header nav ul li a:hover{
 .projects-main-content a {
     position: relative;
     text-align: center;
-    color: white;
+    color: #27445C;
     width: 100%;
 }
 .projects-main-content h3{
@@ -168,15 +167,15 @@ header nav ul li a:hover{
 .projects-secondary-content a{
     position: relative;
     text-align: center;
-    color: white;
+    color: #27445C;
     width: 45%;
 }
 
 .projects-secondary-content h3{
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-      
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .secondary-image-container-1{
@@ -268,15 +267,19 @@ width: 10.4%;
     width: 11%;
 }
 .projects-main-content h3{
-    font-size: 14px;
+    font-size: 12px;
+}
+
+.projects-secondary-content{
+    padding-left: 60px;
 }
 
 .projects-secondary-content h3{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .contact-me-info ul li a{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 }
@@ -311,6 +314,19 @@ p{
 .projects h3{
     width: 12%;
 }
+
+.projects-main-content h3{
+    font-size: 10px;
+}
+
+.projects-secondary-content{
+    padding-left: 45px;
+}
+
+.projects-secondary-content h3{
+    font-size: 10px;
+}
+
 .contact-me-info ul li a{
     font-size: 10px;
 }
@@ -319,6 +335,9 @@ p{
 
 @media screen and (max-width:425px) {
 
+    header nav ul{
+        justify-content: center;
+    }
 .about-me-content{
     justify-content: center;
 }
@@ -330,6 +349,18 @@ p{
     font-size: 8px;
 }
 .contact-me-info ul li a{
+    font-size: 8px;
+}
+
+.projects-main-content h3{
+    font-size: 8px;
+}
+
+.projects-secondary-content{
+    padding-left: 30px;
+}
+
+.projects-secondary-content h3{
     font-size: 8px;
 }
 
@@ -348,6 +379,18 @@ header{
     width: 12%;
     min-width: 50px;
     font-size: 10px;
+}
+
+.projects-main-content h3{
+    font-size: 6px;
+}
+
+.projects-secondary-content h3{
+    font-size: 6px;
+}
+
+.projects-secondary-content{
+    padding-left: 25px;
 }
 
 .contact-me-info ul{
