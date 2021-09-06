@@ -134,21 +134,37 @@ header nav ul li a{
 .projects-secondary-content{
     display: flex;
     flex-wrap: wrap;
+    padding-left: 40px;
 }
 
 .projects-main-content img{
     padding: 0px 10px 10px 10px;
+    width: 100%;
     max-width: 750px;
 }
 
 .projects-secondary-content img{
+    width: 100%;
     max-width: 350px;
+}
+
+.projects-main-content a {
+    width: 100%;
 }
 
 .projects-secondary-content a {
     width: 50%;
-    padding: 10px;
 }
+
+.secondary-image-container-1{
+    padding-right: 10px;
+}
+
+.secondary-image-container-2{
+    padding-left: 10px;
+}
+
+
 
 /* Contact Me Section Styling */
 .contact-me{
