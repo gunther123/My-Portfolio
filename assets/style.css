@@ -24,7 +24,7 @@ p{
 .section-heading{
     border-right: 1px solid white;
     width: 10%;
-    min-width: 50px;
+    min-width: 60px;
     font-size: 17px;
 }
 
@@ -103,11 +103,6 @@ header nav ul li a{
 
 .about-me-content-p1{
     width: 70%;
-}
-
-.about-me-content-p2{
-    padding-top: 10px;
-    width: 100%;
 }
 
 /*Projects Styling*/
@@ -235,9 +230,7 @@ width: 10.4%;
 .about-me-content-p1 {
     width: 100%;
 }
-.about-me-content-p2 {
-    width: 100%;
-}
+
 .projects h3{
     width: 11%;
 }
