@@ -132,7 +132,7 @@ header nav ul li a:hover{
 }
 
 .projects-main-content{
-    margin-left: 20px;
+    margin-left: 30px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -141,45 +141,51 @@ header nav ul li a:hover{
     display: flex;
     flex-wrap: wrap;
     padding-left: 40px;
+    width: 100%;
 }
 
 .projects-main-content img{
     padding: 0px 10px 10px 10px;
-    width: 100%;
-    max-width: 750px;
+    width: 100%; 
 }
 
 .projects-secondary-content img{
     width: 100%;
-    max-width: 350px;
 }
 
 .projects-main-content a {
-    background-image: url(../assets/images/hero-bg_720x200.jpg);
-    display: flex;
-    height: 200px;
+    position: relative;
+    text-align: center;
+    color: white;
     width: 100%;
 }
-
-
-.secondary-image-container-1 {
-    display: flex;
-    width: 43%;
-    height: 200px;
-    background-image: url(../assets/images/digital-marketing-meeting_350x200.jpg);
-    padding-right: 30px;
+.projects-main-content h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.projects-secondary-content a{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 45%;
 }
 
+.projects-secondary-content h3{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+      
+}
+
+.secondary-image-container-1{
+    padding-right: 10px;
+}
 
 .secondary-image-container-2{
-    display: flex;
-    width: 43%;
-    height: 200px;
-    background-image: url(../assets/images/album-image_350x200.jpg);
     padding-left: 10px;
 }
-
-
 
 
 /* Contact Me Section Styling */
@@ -260,6 +266,13 @@ width: 10.4%;
 
 .projects h3{
     width: 11%;
+}
+.projects-main-content h3{
+    font-size: 14px;
+}
+
+.projects-secondary-content h3{
+    font-size: 14px;
 }
 
 .contact-me-info ul li a{
