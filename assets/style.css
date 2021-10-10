@@ -27,7 +27,6 @@ p{
 
 .section-heading{
     border-right: 1px solid white;
-    width: 10%;
     min-width: 60px;
     font-size: 17px;
 }
@@ -82,7 +81,6 @@ header nav ul li a:hover{
 .hero-text{
     display: flex;
     align-items: flex-end;
-
 }
 
 /* About Me Section Style */
@@ -95,6 +93,7 @@ header nav ul li a:hover{
 
 .about-me h3{
     padding-right: 20px;
+    width:10%;
 }
 
 .about-me-content{
@@ -129,6 +128,7 @@ header nav ul li a:hover{
 
 .projects h3{
     padding-right: 42px;
+    width: 10.5%;
 }
 
 .projects-main-content{
@@ -197,6 +197,7 @@ header nav ul li a:hover{
 
 .contact-me h3{
     padding-right: 30px;
+    width: 9.7%
 }
 
 .contact-me-info{
